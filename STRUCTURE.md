@@ -3,6 +3,7 @@
 ## Pages
 - HomePage : contiene la lista di tutti i film
 - FilmPage : contiene i dettagli di un singolo film
+- ContactsPage
 
 ## Layout
 - DefaultLayout : contiene il layout di default delle pagine (header e footer)
