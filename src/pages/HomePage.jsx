@@ -1,7 +1,25 @@
 import { Link } from "react-router-dom"
 import Card from "../components/Card"
+import { useState, useEffect } from "react"
 
 export default function HomePage() {
+
+
+    const [films, setFilms] = useState([])
+    const url = "http://127.0.0.1:3000/movies"
+
+    function fetchFilms(url) {
+        fetch(url)
+        .then(res => res.json())
+        .then(data => setFilms(data))
+        .catch(error => console.error(error))
+    }
+
+    useEffect(() => {
+        fetchFilms(url)
+    }, [])
+
+    
 
     return (
         <>
