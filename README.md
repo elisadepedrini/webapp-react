@@ -17,7 +17,7 @@ Ora è il momento di prepararci al frontend della nostra Web App!
 [ x ] Creiamo un layout di base per la nostra applicazione ed impostiamo le rotte per le diverse pagine.
 [ x ] Creiamo 2 pagine:
 [ x ] La home, in cui mostreremo la lista dei film
-[ ] La pagina di dettaglio di un singolo film
+[ x ] La pagina di dettaglio di un singolo film
 
 ## MILESTONE 3
 
