@@ -8,7 +8,7 @@ export default function AppHeader() {
             <nav className="navbar navbar-expand navbar-light bg-light">
                 <div className="nav navbar-nav">
                     <ul className="d-flex">
-                        <NavLink className="nav-link" to="/">Home</NavLink>
+                        <NavLink className="nav-link" to="/movies">Home</NavLink>
                         <NavLink className="nav-link" to="/contacts">Contatti</NavLink>
                     </ul>
                 </div>

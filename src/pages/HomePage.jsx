@@ -31,7 +31,7 @@ export default function HomePage() {
                         {films.map(film => (
                             <div className="col" key={film.id}>
                                 <Card film={film}>
-                                    <Link to={`/film/${film.id}`} className="btn btn-primary">Scopri di più</Link>
+                                    <Link to={`/movies/${film.id}`} className="btn btn-primary">Scopri di più</Link>
                                 </Card>
                             </div>
                         ))}
